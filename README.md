@@ -4,7 +4,7 @@ This repository contains Python code that implements a simple trading strategy b
 
 ## Overview
 
-The code uses historical stock price data to analyze price movements and identify Renko candle patterns. It follows a basic strategy to identify both green and red candles, as well as transitions between them. The goal is to recognize potential trends and reversals in the price movement.
+The code uses historical stock price data to analyze price movements and identify Renko candle patterns. It follows a basic strategy to identify both green and red candles and transitions between them. The goal is to recognize potential trends and reversals in the price movement.
 
 ## Code Explanation
 
@@ -52,6 +52,9 @@ This code simulates a trading strategy to identify Renko candle patterns and tra
 1. Make sure you have the required libraries installed. If not, you can install them using `pip`:
    ```bash
    pip install yfinance numpy pandas scipy
+   ```
+2. Run the provided Python script to see the analysis and output of the Renko-based trading strategy.
+
 
 ## NOTE
   This code is for educational and illustrative purposes only. Actual trading decisions should be based on thorough analysis, risk management, and a proper understanding of financial markets. The code can be further customized and enhanced to suit specific trading preferences.
